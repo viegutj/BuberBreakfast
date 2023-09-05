@@ -1,0 +1,22 @@
+POST http://localhost:5112/breakfasts
+Content-Type: application/json
+
+{
+    "name": "Vegan Sunshine",
+    "description": "Vegan everything! Join us for a healthy breakfast..",
+    "startDateTime": "2022-04-08T08:00:00",
+    "endDateTime": "2022-04-08T11:00:00",
+    "savory": [
+        "Oatmeal",
+        "Avocado Toast",
+        "Omelette",
+        "Salad"
+    ],
+    "Sweet": [
+        "Cookie"
+    ]
+}
+
+// the three hashtags lets us do another request from the same file
+###
+GET https://localhost:7046/Breakfasts/475a21a4-7b61-4624-b5f9-83759903e56e
