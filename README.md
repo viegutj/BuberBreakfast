@@ -1,6 +1,8 @@
 # BuberBreakfast
 REST WebAPI I made in .NET 6.0 using C# and the error management package ErrorOr. This project challenged my C# server skills and taught me how to use a new package. I referenced FreeCodeCamp's tutorial video and made the repo from scratch.
 
+POST, GET, PUT, and DELETE breakfasts from this API using JSON formatting. This is only the backend; no react frontend is present.
+
 
 # API Definition
 
